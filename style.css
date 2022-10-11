@@ -1,12 +1,15 @@
 html {
   background-color: white;
+  background-position: 100%;
+  background-size: contain;
+  background-image: url("./img/bg.jpg");
   color: whitesmoke;
   font-family: 'Raleway';
-  background-image: url("./img/bg.jpg");
 }
 
 header, body {
   margin: 5%;
+  overflow: hidden;
   text-align: center;
   color: whitesmoke;
 }
