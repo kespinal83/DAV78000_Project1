@@ -5,39 +5,243 @@ var pubs =
         {
             "name": "Female","children": [
                 {"name": "Mother Only","children": [
-                    {"name": "Siblings"},
-                    {"name": "No Siblings"}
-                ]},
+                  {"name": "Siblings","children": [
+                    {"name": "Higher-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "No Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                    {"name": "Some-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                  ]},
+                  {"name": "No Siblings","children": [
+                    {"name": "Higher-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "No Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                    {"name": "Some-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                  ]},
+                  ]},
                 {"name": "Father Only","children": [
-                  {"name": "Siblings"},
-                  {"name": "No Siblings"}
+                  {"name": "Siblings","children": [
+                    {"name": "Higher-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "No Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                    {"name": "Some-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                  ]},
+                  {"name": "No Siblings","children": [
+                    {"name": "Higher-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "No Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                    {"name": "Some-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                  ]},
                 ]},
                 {"name": "Both Parents","children": [
-                  {"name": "Siblings"},
-                  {"name": "No Siblings"}
+                  {"name": "Siblings","children": [
+                    {"name": "Higher-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "No Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "No Anxiety"}
+                        ]},
+                      ]},
+                    {"name": "Some-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "No Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                  ]},
+                  {"name": "No Siblings","children": [
+                    {"name": "Higher-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "No Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                    {"name": "Some-Ed","children": [
+                      {"name": "Stable Rel","children": [
+                        {"name": "Anxiety"}
+                        ]},
+                        {"name": "Unstable Rel","children": [
+                          {"name": "Anxiety"}
+                        ]},
+                      ]},
+                  ]},
                 ]},
             ]
         },
         {
-            "name": "Male","children": [
-              {"name": "Mother Only","children": [
-                {"name": "Siblings"},
-                {"name": "No Siblings"}
-            ]},
+          "name": "Male","children": [
+            {"name": "Mother Only","children": [
+              {"name": "Siblings","children": [
+                {"name": "Higher-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "Anxiety"}
+                    ]},
+                  ]},
+                {"name": "Some-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "Anxiety"}
+                    ]},
+                  ]},
+              ]},
+              {"name": "No Siblings","children": [
+                {"name": "Higher-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "No Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "Anxiety"}
+                    ]},
+                  ]},
+                {"name": "Some-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "Anxiety"}
+                    ]},
+                  ]},
+              ]},
+              ]},
             {"name": "Father Only","children": [
-              {"name": "Siblings"},
-              {"name": "No Siblings"}
+              {"name": "Siblings","children": [
+                {"name": "Higher-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "Anxiety"}
+                    ]},
+                  ]},
+                {"name": "Some-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "Anxiety"}
+                    ]},
+                  ]},
+              ]},
+              {"name": "No Siblings","children": [
+                {"name": "Higher-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "Anxiety"}
+                    ]},
+                  ]},
+                {"name": "Some-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "Anxiety"}
+                    ]},
+                  ]},
+              ]},
             ]},
             {"name": "Both Parents","children": [
-              {"name": "Siblings"},
-              {"name": "No Siblings"}
+              {"name": "Siblings","children": [
+                {"name": "Higher-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "No Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "No Anxiety"}
+                    ]},
+                  ]},
+                {"name": "Some-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "No Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "No Anxiety"}
+                    ]},
+                  ]},
+              ]},
+              {"name": "No Siblings","children": [
+                {"name": "Higher-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "No Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "No Anxiety"}
+                    ]},
+                  ]},
+                {"name": "Some-Ed","children": [
+                  {"name": "Stable Rel","children": [
+                    {"name": "No Anxiety"}
+                    ]},
+                    {"name": "Unstable Rel","children": [
+                      {"name": "No Anxiety"}
+                    ]},
+                  ]},
+              ]},
             ]},
         ]
         }
     ]
 };
 
-var diameter = 900;
+var diameter = 1000;
 
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
     width = diameter,
@@ -58,7 +262,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", width )
     .attr("height", height )
   .append("g")
-    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 4 + ")");
+    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
 root = pubs;
 root.x0 = height / 2;

@@ -9,9 +9,15 @@ html {
 
 header, body {
   margin: 5%;
-  overflow: hidden;
+  /*overflow: hidden;*/
   text-align: center;
   color: whitesmoke;
+}
+
+p{
+  text-align: justify;
+  font: 12px 'Raleway';
+  color:whitesmoke;
 }
 
 hr {
@@ -25,7 +31,7 @@ hr {
 }
 
 .node text {
-  font: 12px 'Raleway';
+  font: 10px 'Raleway';
   color:whitesmoke;
 }
 
