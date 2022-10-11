@@ -1,31 +1,37 @@
 html {
   background-color: white;
-  color: black;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: whitesmoke;
+  font-family: 'Raleway';
   background-image: url("./img/bg.jpg");
 }
 
 header, body {
   margin: 5%;
   text-align: center;
+  color: whitesmoke;
 }
 
 hr {
-  fill:black
+  fill:black;
 }
 
 .node circle {
-  fill: #fff;
-  stroke: #931621;
+  fill: #aea097;
+  stroke: crimson;
   stroke-width: 1px;
 }
 
 .node text {
-  font: 12px sans-serif;
+  font: 12px 'Raleway';
+  color:whitesmoke;
+}
+
+.text {
+  color: whitesmoke;
 }
 
 .link {
   fill: none;
-  stroke: #326771;
-  stroke-width: 2px;
+  stroke: whitesmoke;
+  stroke-width: 1px;
 }

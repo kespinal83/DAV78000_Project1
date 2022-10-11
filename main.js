@@ -1,6 +1,6 @@
 var pubs =
 {
-    "name": "Me",
+    "name": "I",
     "children": [
         {
             "name": "Female","children": [
@@ -20,13 +20,19 @@ var pubs =
         },
         {
             "name": "Male","children": [
-                {"name": "Mother Only"},
-                {"name": "Father Only"},
-                {"name": "Both Parents","children":[
-                    {"name": "Siblings"},
-                    {"name": "No Siblings"}
-                ]}
-            ]
+              {"name": "Mother Only","children": [
+                {"name": "Siblings"},
+                {"name": "No Siblings"}
+            ]},
+            {"name": "Father Only","children": [
+              {"name": "Siblings"},
+              {"name": "No Siblings"}
+            ]},
+            {"name": "Both Parents","children": [
+              {"name": "Siblings"},
+              {"name": "No Siblings"}
+            ]},
+        ]
         }
     ]
 };
@@ -79,20 +85,18 @@ function update(source) {
   // Enter any new nodes at the parent's previous position.
   var nodeEnter = node.enter().append("g")
       .attr("class", "node")
-      //.attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
       .on("click", click);
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#645969"; });
 
   nodeEnter.append("text")
-      .attr("x", 10)
+      .attr("x", 15)
       .attr("dy", ".35em")
       .attr("text-anchor", "start")
-      //.attr("transform", function(d) { return d.x < 180 ? "translate(0)" : "rotate(180)translate(-" + (d.name.length * 8.5)  + ")"; })
       .text(function(d) { return d.name; })
-      .style("fill-opacity", 1e-6);
+      .style("fill", "white");
 
   // Transition nodes to their new position.
   var nodeUpdate = node.transition()
@@ -100,8 +104,8 @@ function update(source) {
       .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
 
   nodeUpdate.select("circle")
-      .attr("r", 4.5)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      .attr("r", 6)
+      .style("fill", function(d) { return d._children ? "crimson" : "#fff"; });
 
   nodeUpdate.select("text")
       .style("fill-opacity", 1)
@@ -110,7 +114,6 @@ function update(source) {
   // TODO: appropriate transform
   var nodeExit = node.exit().transition()
       .duration(duration)
-      //.attr("transform", function(d) { return "diagonal(" + source.y + "," + source.x + ")"; })
       .remove();
 
   nodeExit.select("circle")
